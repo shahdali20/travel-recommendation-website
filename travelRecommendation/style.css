@@ -6,7 +6,7 @@
 
 body {
     height: 100%;
-    background-image:url(airplane.jpg);
+    background-image:url(images/airplane.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
