@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel For All</title>
+    <link rel="stylesheet" href="assets/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h3><a href="./travel_recommendation.html">TravelForAll</a></h3>
+        <nav>
+            <a href="./travel_recommendation.html">Home</a>
+            <a href="./about_us.html">About us</a>
+            <a href="./contact.html">Contact us</a>
+        </nav>
+        <div class="search-area">
+            <input type="text" id="search" placeholder="Enter a destination or keyword">
+            <button onclick="fetchRecommendations()"">Search</button>
+            <button onclick="clearResults()"">Clear</button>
+        </div>
+    </header>
+    <section id="home">
+        <div class="land">
+           <h1>Discover Your Perfect Adventure with Travel for All</h1>
+        <p>At Travel for All, we believe that travel is for everyone, no matter your destination or style. Whether you're seeking serene landscapes, bustling cityscapes, or cultural immersion, our curated recommendations ensure unforgettable journeys tailored to every traveler. Start your next adventure with confidence, knowing that Travel for All is your trusted guide to explore the world's wonders.</p>
+        <button disabled>Book Now</button>
+    </div>
+    </section> 
+    <section id="results" class="results">
+        <!-- Recommendations will be displayed here -->
+    </section>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
