@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image:url(airplane.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(47, 86, 131), transparent);
+}
+
+header h3 a {
+    color: white;
+    font-weight: bold;
+    margin-left: 5rem;
+    text-decoration: none;
+}
+
+header h3 a:hover {
+    color:  rgb(7, 39, 77);
+}
+
+header nav {
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+header a:hover {
+    color:  rgb(7, 39, 77);
+}
+
+.search-area {
+    text-align: center;
+    background-color: rgba(7, 39, 77, 0.404);
+    padding: 10px;
+    width: 400px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+input[type="text"] {
+    border-radius: 20px; 
+    border: 0px;;    
+    width: 250px;          
+    outline: none;     
+    padding: 5px;    
+    text-align: center; 
+  }
+
+header button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.822);
+    outline: none;
+    color: black;
+}
+
+#home {
+    padding: 50px;
+    height: 95vh;
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(to right, rgb(47, 86, 131), transparent);
+}
+
+.land {
+    width: 90vh;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+.land h1 {
+    font-size: 58px;
+    
+
+}
+
+.land p {
+    margin: 15px 5px;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.land button {
+    padding: 15px;
+    font-size: 25px;
+    width: 170px;
+    color: white;
+    background-color: rgb(23, 45, 70);
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.land button:hover {
+    cursor: pointer;
+    background-color: rgb(16, 28, 41);
+    font-weight: bold;
+}
+
+#about-us ,#contact{
+    padding: 50px;
+    height: 95vh;
+    background: linear-gradient(to right, rgb(47, 86, 131), transparent);
+    display: flex;
+    justify-content: center;
+}
+.content ,.contact-form-container{
+    margin: 10px 60px;
+    width: 150vh;
+}
+.content h1,.contact-form-container h1{
+    font-size: 80px;
+}
+.content p {
+    background-color: rgba(13, 32, 53, 0.342);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+}
+
+.hide {
+    visibility: hidden;
+}
+.container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.team {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.member {
+    background-color: rgba(13, 32, 53, 0.342);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    width: 190px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.member .introdction {
+    font-size: 15px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+.member .position {
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(13, 32, 53, 0.89);
+}
+.block {
+    width: 10rem;
+}
+
+form {
+    background-color:  rgba(13, 32, 53, 0.548);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+form input[type="text"],form input[type="email"] {
+    border-radius: 5px; 
+    border: 0px;;    
+    width: 100%;          
+    outline: none;     
+    padding: 5px;    
+    text-align: left; 
+    font-size: 17px;
+  }
+
+textarea {
+    border-radius: 5px; 
+    border: 0px;;    
+    width: 100%;          
+    outline: none;     
+    padding: 5px;    
+    text-align: left; 
+    font-size: 17px;
+}
+form button {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 170px;
+    color: white;
+    background-color: rgb(39, 93, 155);
+    border: 0px;
+    border-radius: 10px;
+    
+}
+
+/* Styles for recommendations */
+.results {
+    padding: 15px;
+    position: absolute;
+    color: black;
+    width: 500px;
+    top: 50px;
+    right: 50px;
+}
+
+.country, .temple, .beach {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.country h2, .temple h2, .beach h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.city, .temple, .beach {
+    margin-bottom: 10px;
+}
+
+.city img, .temple img, .beach img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.city h3, .temple h3, .beach h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.city p, .temple p, .beach p {
+    font-size: 16px;
+}
